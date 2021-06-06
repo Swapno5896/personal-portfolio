@@ -1,0 +1,15 @@
+.project-card {
+  max-width: 964px;
+  max-height: 300px;
+}
+.project-tech {
+  display: flex;
+}
+
+.project-tech p {
+  border: 1px solid rgb(218, 206, 206);
+  width: 70px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px 14px;
+}
