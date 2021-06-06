@@ -5,7 +5,10 @@
 .project-tech {
   display: flex;
 }
-
+.project-image {
+  max-width: 200px;
+  overflow: hidden;
+}
 .project-tech p {
   border: 1px solid rgb(218, 206, 206);
   width: 70px;

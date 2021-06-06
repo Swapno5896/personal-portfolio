@@ -33,12 +33,12 @@ const MyNavbar = () => {
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
-                  Home
+                  Blog
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
-                  Home
+                  Resume
                 </a>
               </li>
             </ul>
