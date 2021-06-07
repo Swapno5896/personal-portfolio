@@ -10,10 +10,11 @@ const TopBanner = () => {
             <div>
               <h3 className="title">Hello, I'm Swapno Mondol</h3>
               <p className="discription">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-                ea! Corporis, amet dolor consectetur fugit harum nihil
-                necessitatibus voluptatum. Excepturi maxime laborum autem
-                dolorum minus doloremque ipsa consectetur nemo blanditiis!
+                I am a hard worker web developer. More than 6 months i am
+                working on it. I have more than 10 mern stack projects. I always
+                try to learn new things and want to join a company where i can
+                learn more from team members. I love my work. Always fit for any
+                situation and any works.
               </p>
             </div>
           </div>

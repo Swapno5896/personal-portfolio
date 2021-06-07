@@ -20,7 +20,7 @@ const MyNavbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
                   Home
@@ -28,7 +28,7 @@ const MyNavbar = () => {
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
-                  Home
+                  About
                 </a>
               </li>
               <li class="nav-item">
@@ -42,7 +42,7 @@ const MyNavbar = () => {
                 </a>
               </li>
             </ul>
-            <form class="d-flex">
+            {/* <form class="d-flex">
               <input
                 class="form-control me-2"
                 type="search"
@@ -52,7 +52,7 @@ const MyNavbar = () => {
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </nav>
