@@ -3,6 +3,7 @@
   font-weight: 600;
 }
 .top-banner-container {
+  background-image: url("../../images/backgroupnd.jpg");
   margin-bottom: 150px;
 }
 .TopBannerImage {

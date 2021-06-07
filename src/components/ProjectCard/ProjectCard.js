@@ -3,7 +3,7 @@ import "./ProjectCard.css";
 const ProjectCard = (props) => {
   const { title, img, discription, liveSite, codeLink } = props.dt;
   return (
-    <div>
+    <div className="project-container">
       <div class="card mb-3 project-card">
         <div class="row g-0">
           <div class="col-md-4 col-sm-8 d-flex justify-content-center">

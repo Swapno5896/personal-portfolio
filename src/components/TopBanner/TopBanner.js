@@ -6,7 +6,7 @@ const TopBanner = () => {
     <div>
       <div class="container top-banner-container">
         <div class="row">
-          <div class="col-md-4 offset-md-2 top-banner-container d-flex align-items-center">
+          <div class="col-md-4 offset-md-2  d-flex align-items-center">
             <div>
               <h3 className="title">Hello, I'm Swapno Mondol</h3>
               <p className="discription">

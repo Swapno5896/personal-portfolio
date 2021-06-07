@@ -1,4 +1,5 @@
 import React from "react";
+import "./project.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import hotel from "../../images/hotel.png";
 import resturent from "../../images/resturent.png";
@@ -31,7 +32,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="d-flex  justify-content-center">
+    <div className="d-flex  justify-content-center project-container">
       <div v class="card  mb-3">
         {fakeData.map((dt) => (
           <ProjectCard dt={dt}></ProjectCard>
