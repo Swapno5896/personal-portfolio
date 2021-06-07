@@ -1,9 +1,10 @@
 import React from "react";
 import "./TopBanner.css";
+import swapno from "../../images//swapno.png";
 const TopBanner = () => {
   return (
     <div>
-      <div class="container">
+      <div class="container top-banner-container">
         <div class="row">
           <div class="col-md-4 offset-md-2 top-banner-container d-flex align-items-center">
             <div>
@@ -17,11 +18,7 @@ const TopBanner = () => {
             </div>
           </div>
           <div class="col-md-2 offset-md-2">
-            <img
-              className="TopBannerImage"
-              src="https://i.pinimg.com/564x/5a/f2/1c/5af21ceb1c74f261bcc3f42272974722.jpg"
-              alt=""
-            />
+            <img className="TopBannerImage" src={swapno} alt="" />
           </div>
         </div>
       </div>

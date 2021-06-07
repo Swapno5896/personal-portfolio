@@ -2,7 +2,11 @@
   font-size: 17px;
   font-weight: 600;
 }
+.top-banner-container {
+  margin-bottom: 150px;
+}
 .TopBannerImage {
+  width: 430px;
   opacity: 0.9;
 }
 .top-banner-container {
