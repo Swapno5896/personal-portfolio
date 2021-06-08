@@ -3,6 +3,21 @@
 }
 
 .about-container {
+  overflow: hidden;
+  position: relative;
   margin: 90px 0px;
-  background-image: url("../../images//background-s.jpg");
+}
+.about-content {
+  position: relative;
+}
+.bg-img {
+  opacity: 0.3;
+  position: absolute;
+  left: -124px;
+  top: -51px;
+  width: 100%;
+  height: auto;
+}
+.about-me-text {
+  font-weight: 600;
 }

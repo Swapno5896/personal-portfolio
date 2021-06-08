@@ -1,6 +1,20 @@
 .project-container {
   padding: 26px 105px;
 }
+.project-container:hover {
+  box-shadow: 5px 10px 20px#888888;
+}
+
+/* .project-container:hover .project-image-container .project-image {
+  width: 350px;
+  transition-property: width;
+  transition-duration: 2s;
+} */
+.project-image:hover {
+  width: 350px;
+  transition-property: width;
+  transition-duration: 2s;
+}
 
 .project-card {
   max-width: 964px;
@@ -15,14 +29,18 @@
   margin-left: 3px;
 }
 .project-image {
-  max-width: 200px;
+  width: 200px;
   overflow: hidden;
 }
 .project-tech a {
   border: 1px solid rgb(218, 206, 206);
-  width: 70px;
+  width: 111px;
   font-size: 15px;
   font-weight: 500;
-  padding: 4px 14px;
+  padding: 9px 11px;
   text-decoration: none;
+  margin-left: 12px;
+}
+.project-card-icon {
+  padding-left: 3px;
 }

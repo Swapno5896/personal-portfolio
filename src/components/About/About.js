@@ -1,22 +1,25 @@
 import React from "react";
 import "./About.css";
 import swapno2 from "../../images/swapno-2.jpg";
+import backGroundImg from "../../images/about-back.jpg";
 const About = () => {
   return (
     <div class="about-container">
-      <div class="row">
+      <img className="bg-img" src={backGroundImg} alt="" />
+
+      <div class="row about-content">
         <div class="col-md-4 offset-md-2">
           <img className="about-img" src={swapno2} alt="" />
         </div>
         <div class="col-md-3 offset-md-1">
           <h3>About Me</h3>
-          <p>
+          <p className="about-me-text">
             An aspiring MERN Stack Developer.I lost myself when I dive into the
             codes. I am a professional web designer and developer.No project is
             too big or too small for me. Recently I have completed react and
             node js. I am expertise in
           </p>
-          <p>
+          <p className="about-me-text">
             {" "}
             Html5,Css3,Javascript,Bootstrap,Jquery,React,Node JS,Express
             JS,Mongo DB. Resourceful Web Developer lends hands-on approach to

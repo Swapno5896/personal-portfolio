@@ -32,11 +32,14 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="d-flex  justify-content-center project-container">
-      <div v class="card  mb-3">
-        {fakeData.map((dt) => (
-          <ProjectCard dt={dt}></ProjectCard>
-        ))}
+    <div>
+      <h2 className="text-center">Projects . . .</h2>
+      <div className="d-flex  justify-content-center project-container">
+        <div v class="card  mb-3">
+          {fakeData.map((dt) => (
+            <ProjectCard dt={dt}></ProjectCard>
+          ))}
+        </div>
       </div>
     </div>
   );
