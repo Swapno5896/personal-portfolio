@@ -1,0 +1,10 @@
+.card {
+  border: 2px solid gold;
+  padding: 22px 21px;
+}
+.card-small {
+  height: 194px;
+}
+.card-small img {
+  padding: 43px 3px;
+}

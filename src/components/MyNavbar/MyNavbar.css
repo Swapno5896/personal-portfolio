@@ -1,0 +1,13 @@
+.nav-Links a {
+  font-size: 26px;
+  font-weight: 600;
+}
+.nav-Links {
+  padding: 5px 100px;
+}
+
+.navbar-user {
+  font-size: 23px;
+  padding: 3px 93px;
+  font-weight: 600;
+}

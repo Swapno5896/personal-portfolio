@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./MyNavbar.css";
 const MyNavbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar scroll
+          <a class="navbar-brand navbar-user" href="#">
+            Swapno
           </a>
           <button
             class="navbar-toggler"
@@ -19,7 +19,7 @@ const MyNavbar = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
+          <div class="collapse navbar-collapse nav-Links" id="navbarScroll">
             <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
