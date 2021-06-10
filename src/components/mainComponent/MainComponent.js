@@ -4,8 +4,9 @@ import MyNavbar from "../MyNavbar/MyNavbar";
 import Projects from "../Projects/Projects";
 import TopBanner from "../TopBanner/TopBanner";
 import Footer from "../Footer/Footer";
-import Contact from "../Contact/Contact";
 import Blog from "../Blog/Blog";
+import ContactUs from "../Contact/ContactUs.js";
+
 const MainComponent = () => {
   return (
     <div>
@@ -14,7 +15,8 @@ const MainComponent = () => {
       <Projects></Projects>
       <Blog></Blog>
       <About></About>
-      <Contact></Contact>
+
+      <ContactUs></ContactUs>
       <Footer></Footer>
     </div>
   );

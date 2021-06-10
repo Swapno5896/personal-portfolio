@@ -22,7 +22,7 @@ const MyNavbar = () => {
           <div class="collapse navbar-collapse nav-Links" id="navbarScroll">
             <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link " aria-current="page" href="#">
                   Home
                 </a>
               </li>
