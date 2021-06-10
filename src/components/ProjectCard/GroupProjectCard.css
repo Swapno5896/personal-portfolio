@@ -1,0 +1,13 @@
+.group-project-img {
+  padding-top: 0px;
+  width: 120px;
+  height: 217px;
+}
+@media screen and (max-width: 480px) {
+  .group-project-img {
+    width: 333px;
+  }
+  .group-project-container {
+    width: 100% !important;
+  }
+}

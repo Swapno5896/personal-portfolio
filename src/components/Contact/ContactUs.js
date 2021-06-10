@@ -1,5 +1,5 @@
 import React from "react";
-import "./ContactUs.css";
+import "./ContactUs.scss";
 const ContactUs = () => {
   return (
     <div class="d-flex justify-content-center contact-us-parent">

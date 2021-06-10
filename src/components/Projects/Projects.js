@@ -1,9 +1,10 @@
 import React from "react";
-import "./project.css";
-import ProjectCard from "../ProjectCard/ProjectCard";
+import "./project.scss";
 import hotel from "../../images/hotel.png";
 import resturent from "../../images/resturent.png";
 import gim from "../../images/gim.png";
+import MyProjectCard from "../ProjectCard/MyProjectCard";
+import GroupProjectCard from "../ProjectCard/GroupProjectCard";
 const Projects = () => {
   const fakeData = [
     {
@@ -32,13 +33,26 @@ const Projects = () => {
     },
   ];
   return (
-    <div>
-      <h2 className="text-center">Projects . . .</h2>
-      <div className="d-flex  justify-content-center project-container">
-        <div v class="card  mb-3">
-          {fakeData.map((dt) => (
-            <ProjectCard dt={dt}></ProjectCard>
-          ))}
+    <div className="project-container">
+      <h2 className="text-center project-title">
+        Some Privious Projects . . .
+      </h2>
+      <div class="d-flex justify-content-center">
+        <div className="row width-controll">
+          <div className="col-md-8 col-sm-12 ">
+            <div class="row">
+              {fakeData.map((dt) => (
+                <MyProjectCard dt={dt}></MyProjectCard>
+              ))}
+            </div>
+          </div>
+          <div className="col-md-4 col-sm-12">
+            <div class="row">
+              {fakeData.map((dt) => (
+                <GroupProjectCard></GroupProjectCard>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
