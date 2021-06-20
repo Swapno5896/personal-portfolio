@@ -1,12 +1,12 @@
 import React from "react";
-import "./TopBanner.css";
-import swapno from "../../images//swapno.png";
+import "./TopBanner.scss";
+import swapno from "../../images/swapno.png";
 const TopBanner = () => {
   return (
     <div>
       <div class="container top-banner-container">
         <div class="row">
-          <div class="col-md-4 offset-md-2  d-flex align-items-center">
+          <div class="col-md-4  d-flex align-items-center">
             <div>
               <h3 className="title">Hello, I'm Swapno Mondol</h3>
               <p className="discription">
@@ -18,7 +18,7 @@ const TopBanner = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-2 offset-md-2">
+          <div class="col-md-2 ">
             <img className="TopBannerImage" src={swapno} alt="" />
           </div>
         </div>

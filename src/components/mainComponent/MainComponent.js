@@ -13,7 +13,7 @@ const MainComponent = () => {
       <MyNavbar></MyNavbar>
       <TopBanner></TopBanner>
       <Projects></Projects>
-      <Blog></Blog>
+      {/* <Blog></Blog> */}
       <About></About>
 
       <ContactUs></ContactUs>

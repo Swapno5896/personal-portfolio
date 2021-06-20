@@ -1,3 +1,8 @@
+@import "../../Styled/Sheared/respnsive.scss";
+
+* {
+  margin: -3px;
+}
 .discription {
   font-size: 17px;
   font-weight: 600;
@@ -5,11 +10,20 @@
 .top-banner-container {
   background-image: url("../../images/backgroupnd.jpg");
   margin-bottom: 150px;
+  @include mobile {
+    padding: 29px 50px;
+  }
 }
+
 .TopBannerImage {
   width: 430px;
   opacity: 0.9;
+  @include mobile {
+    padding: 2px 45px;
+    margin: 6px -57px;
+  }
 }
+
 .top-banner-container {
   height: 470px;
 }

@@ -4,7 +4,7 @@ import "./GroupProjectCard.css";
 const GroupProjectCard = () => {
   return (
     <div class="card  group-project-container">
-      <div class="row g-0">
+      <div class="row g-3">
         <div class="col-md-4 col-sm-4">
           <img className="group-project-img" src={image} alt="..." />
         </div>

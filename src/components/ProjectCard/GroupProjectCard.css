@@ -3,6 +3,9 @@
   width: 120px;
   height: 217px;
 }
+.group-project-container {
+  margin: 16px 41px;
+}
 @media screen and (max-width: 480px) {
   .group-project-img {
     width: 333px;

@@ -40,14 +40,14 @@ const Projects = () => {
       <div class="d-flex justify-content-center">
         <div className="row width-controll">
           <div className="col-md-8 col-sm-12 ">
-            <div class="row">
+            <div class="row ">
               {fakeData.map((dt) => (
                 <MyProjectCard dt={dt}></MyProjectCard>
               ))}
             </div>
           </div>
           <div className="col-md-4 col-sm-12">
-            <div class="row">
+            <div class="row" style={{ marginTop: "34px" }}>
               {fakeData.map((dt) => (
                 <GroupProjectCard></GroupProjectCard>
               ))}

@@ -1,4 +1,4 @@
-@import "../../Styled/Sheared/FontSizes.scss";
+@import "../../Styled/Sheared/Font.scss";
 @import "../../Styled/Sheared/backgroun-color.scss";
 .project-container {
   background-color: $project-background-color;
@@ -7,10 +7,11 @@
   width: 80%;
 }
 .project-title {
-  font-size: $title;
+  font-size: fontSize(title);
+  padding: 90px 0px;
 }
 @media screen and (max-width: 480px) {
   .width-controll {
-    width: 100%;
+    width: 116%;
   }
 }

@@ -1,0 +1,19 @@
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700,
+);
+
+$font-sizes: (
+  "title": 56px,
+  "subTitle": 35px,
+  "normalText": 20px,
+);
+
+@function fontSize($font-size) {
+  @return map-get($font-sizes, $font-size);
+}
+
+@function fontweight($font-weight) {
+  @return map-get($font-weights, $font-weight);
+}
