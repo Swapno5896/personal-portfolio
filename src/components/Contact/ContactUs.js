@@ -6,7 +6,7 @@ const ContactUs = () => {
       <div className="row w-70 contact-us-container">
         <div className="col-md-6 col-sm-12">
           <h2 className="text-center">Contact Us</h2>
-          <form>
+          <form style={{ padding: '3px 74px' }}>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">
                 Name
@@ -39,7 +39,7 @@ const ContactUs = () => {
             </button>
           </form>
         </div>
-        <div className="col-md-6 col-sm-12">
+        <div style={{ padding: '20px 100px' }} className="col-md-6 col-sm-12 ">
           <h2 className="text-center">Gei in touch</h2>
           <p>
             {" "}

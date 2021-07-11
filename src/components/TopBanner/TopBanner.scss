@@ -1,5 +1,5 @@
 @import "../../Styled/Sheared/respnsive.scss";
-
+@import '../../Styled//Sheared/respnsive.scss';
 * {
   margin: -3px;
 }
@@ -26,4 +26,7 @@
 
 .top-banner-container {
   height: 470px;
+}
+.top-banner-text{
+ padding:20px
 }

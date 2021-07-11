@@ -16,15 +16,15 @@ const MyProjectCard = (props) => {
           <p class="card-text">{discription}</p>
         </div>
 
-        <div class="card-body">
-          <a href={liveSite} class="card-link">
+        <div class="card-body d-flex justify-content-around">
+          <a href={liveSite} className="card-link">
             Live Site{" "}
             <span>
-              {" "}
+
               <FontAwesomeIcon icon={faChartLine} />
             </span>
           </a>
-          <a href={codeLink} class="card-link">
+          <a href={codeLink} className="card-link">
             Code Link{" "}
             <span>
               {" "}

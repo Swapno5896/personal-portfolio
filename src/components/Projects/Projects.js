@@ -32,6 +32,18 @@ const Projects = () => {
       codeLink: "https://github.com/Swapno5896/resturent/tree/dev-shuvo",
     },
   ];
+
+  // const personalProject =[
+  //   {img:,title:'Service Master',description:'This is a wider card with supporting text below as a natural lead-in to additional',technology:['React','Redux','Typescript','Sass'],liveSite:'',uiCode:'',serverCode:''},
+  //   {img:,title:'Medical Service',description:'This is a wider card with supporting text below as a natural lead-in to additional',technology:['React','Redux','Typescript','Sass'],liveSite:'',uiCode:'',serverCode:''},
+  //   {img:,title:'Amazing Museum',description:'This is a wider card with supporting text below as a natural lead-in to additional',technology:['React','sass','Bootstrap'],liveSite:'',uiCode:'',serverCode:''},
+  // ]
+
+  const groupProject = [
+    { img: gim, title: '', description: '', technology: '', liveSite: '', uiCode: '', serverCode: '' },
+    { img: hotel, title: '', description: '', technology: '', liveSite: '', uiCode: '', serverCode: '' },
+    { img: resturent, title: '', description: '', technology: '', liveSite: '', uiCode: '', serverCode: '' },
+  ]
   return (
     <div className="project-container">
       <h2 className="text-center project-title">

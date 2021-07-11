@@ -1,14 +1,13 @@
-.nav-Links a {
-  font-size: 26px;
-  font-weight: 600;
+.nav-item .nav-link{
+  font-size: 20px;
+ margin-left: 27px;
 }
+.resume{
 
-.nav-Links {
-  padding: 5px 100px;
+  background-color: aqua;
+  margin-right: 51px;
 }
-
-.navbar-user {
-  font-size: 23px;
-  padding: 3px 93px;
-  font-weight: 600;
+.myName{
+  margin-left: 61px;
+  font-size: 35px;
 }

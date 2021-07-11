@@ -1,59 +1,33 @@
-import React from "react";
-import "./MyNavbar.css";
+import React from 'react';
+import './MyNavbar.css'
 const MyNavbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand navbar-user" href="#">
-            Swapno
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse nav-Links" id="navbarScroll">
-            <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll ms-auto">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  About
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Blog
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Resume
-                </a>
-              </li>
-            </ul>
-            {/* <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form> */}
-          </div>
+
+      <nav class="navbar navbar-expand-lg  fixed-top " style={{ backgroundColor: '#cab3b3' }}>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand myName" href="#">Swapno Mondol</a>
+          <ul class="navbar-nav ms-auto mt-3 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link resume" href="#">Resume</a>
+            </li>
+          </ul>
+
         </div>
       </nav>
     </div>

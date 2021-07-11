@@ -5,10 +5,10 @@ const TopBanner = () => {
   return (
     <div>
       <div class="container top-banner-container">
-        <div class="row">
-          <div class="col-md-4  d-flex align-items-center">
+        <div class="row mt-5">
+          <div class="col-md-4  d-flex align-items-center offset-md-2">
             <div>
-              <h3 className="title">Hello, I'm Swapno Mondol</h3>
+              <h3 className="title pb-3">Hello, I'm Swapno Mondol</h3>
               <p className="discription">
                 I am a hard worker web developer. More than 6 months i am
                 working on it. I have more than 10 mern stack projects. I always
@@ -18,7 +18,7 @@ const TopBanner = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-2 ">
+          <div class="col-md-2 offset-md-1">
             <img className="TopBannerImage" src={swapno} alt="" />
           </div>
         </div>
