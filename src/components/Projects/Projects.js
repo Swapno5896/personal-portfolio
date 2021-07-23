@@ -16,7 +16,7 @@ const Projects = () => {
       codeLink: "https://github.com/Swapno5896/Fitness-Club",
     },
     {
-      title: "Luxury Hotel - A Hotel application ",
+      title: "Fitness club - A gim application ",
       discription:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure nulla distinctio quae ipsa facere fuga, dolore, natus aspernatur id omnis cum veritatis! Quis quasi illum cupiditate soluta. Consequatur, ipsam!",
       img: resturent,
@@ -40,9 +40,9 @@ const Projects = () => {
   // ]
 
   const groupProject = [
-    { img: gim, title: '', description: '', technology: '', liveSite: '', uiCode: '', serverCode: '' },
-    { img: hotel, title: '', description: '', technology: '', liveSite: '', uiCode: '', serverCode: '' },
-    { img: resturent, title: '', description: '', technology: '', liveSite: '', uiCode: '', serverCode: '' },
+    { img: gim, title: 'Fitness club - A gim application', description: 'A user can join gim though this application, an can see the benefit of this gim it have', technology: ['React', 'Bootstrap', 'Css', 'js'], liveSite: 'https://fitness-club-79595.web.app/', uiCode: 'https://github.com/Swapno5896/Fitness-Club', serverCode: '' },
+    { img: hotel, title: 'Hotel service - A service application', description: ' This website is for travell lover , a tarveller can pre book an room where he can stay ', technology: ['React', 'Bootstrap', 'Css', 'js'], liveSite: 'https://amazing-hotel-bcdfb.web.app/', uiCode: 'https://github.com/Swapno5896/Luxury-Hotel', serverCode: '' },
+    { img: resturent, title: 'Amazing Restaurant - A restaurant application', description: 'To make food lover life easier it helpful, hear a user can order food online or book table.', technology: ['React', 'Bootstrap', 'Css', 'js'], liveSite: 'https://fresh-food-9389b.web.app/', uiCode: 'https://github.com/Swapno5896/Luxury-Hotel', serverCode: '' },
   ]
   return (
     <div className="project-container">
